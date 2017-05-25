@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:ct="http://www.abisource.com/changetracking.dtd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="63" xmlns:dc="http://purl.org/dc/elements/1.1/" styles="unlocked" fileformat="1.0" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="0.99.2" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="abiword.date_last_changed">Tue May 23 14:48:24 2017
+</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.creator">student</m>
+<m key="dc.date">Tue May 23 13:56:18 2017
+</m>
+<m key="dc.format">application/x-abiword</m>
+</metadata>
+<rdf>
+</rdf>
+<history version="5" edit-time="4380" last-saved="1495565304" uid="33e07dda-3fde-11e7-87cb-ad3373ab6a75">
+<version id="5" started="1495562178" uid="66c9caee-3fe8-11e7-87cb-ad3373ab6a75" auto="0" top-xid="40"/>
+</history>
+<styles>
+<s type="P" name="Normal" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; color:000000; margin-left:0pt; text-position:normal; widows:2; font-style:normal; text-indent:0in; font-variant:normal; font-weight:normal; margin-right:0pt; font-size:12pt; text-decoration:none; margin-bottom:0pt; line-height:1.0; bgcolor:transparent; text-align:left; font-stretch:normal"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section xid="13" props="page-margin-footer:0.5in; page-margin-header:0.5in">
+<p style="Normal" xid="14"><c>Andrew Jones</c></p>
+<p style="Normal" xid="41"><c></c><c>initialize String sortBuffer</c></p>
+<p style="Normal" xid="1"><c>initialize String letter</c></p>
+<p style="Normal" xid="16"><c>initialize String letters</c></p>
+<p style="Normal" xid="2"><c>﻿</c></p>
+<p style="Normal" xid="18"><c>WHILE letters has less than 5 characters</c></p>
+<p style="Normal" xid="3"><c>	input letter</c></p>
+<p style="Normal" xid="4"><c>	IF String letter is not a letter or larger than 1 character</c></p>
+<p style="Normal" xid="8"><c>		Print "Enter a Letter"</c></p>
+<p style="Normal" xid="15"><c>	ELSE</c></p>
+<p style="Normal" xid="17"><c>		add letter to letters</c></p>
+<p style="Normal" xid="9"><c>	END IF</c></p>
+<p style="Normal" xid="19"><c>ENDWHILE</c></p>
+<p style="Normal" xid="20"><c></c></p>
+<p style="Normal" xid="21"><c>FOR ﻿int sortCount =1; sortCount=&lt;5; sortCount++</c></p>
+<p style="Normal" xid="31"><c></c></p>
+<p style="Normal" xid="22"><c>	FOR ﻿ int letterCount =1; letterCount=&lt;5; letterCount++</c></p>
+<p style="Normal" xid="24"><c></c></p>
+<p style="Normal" xid="25"><c>		IF </c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">element letterCount in letters</c><c> is greater than the element one greater than </c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">element letterCount in letters</c></p>
+<p style="Normal" xid="23"><c></c></p>
+<p style="Normal" xid="10"><c>			sortBuffer equals element letterCount in letters</c></p>
+<p style="Normal" xid="30"><c>			element  letterCount letters equals </c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">the element one greater than element letterCount in letters</c></p>
+<p style="Normal" xid="32"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal" xid="11"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">			the element one greater than element letterCount in letters equals sortBuffer</c></p>
+<p style="Normal" xid="34"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">		ELSE</c></p>
+<p style="Normal" xid="35"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">		END IF</c></p>
+<p style="Normal" xid="36"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">	NEXT</c></p>
+<p style="Normal" xid="37"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">NEXT</c></p>
+<p style="Normal" xid="38"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">FOR  printCount =1; printCount=&lt;5; printCount++</c></p>
+<p style="Normal" xid="12" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c></c></p>
+<p style="Normal" xid="39" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c>	PRINT element printCount in letters</c></p>
+<p style="Normal" xid="40" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c>NEXT</c></p>
+<p style="Normal" xid="42" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c></c></p>
+<p style="Normal" xid="43" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c>input dkazt</c></p>
+<p style="Normal" xid="44" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c>d</c></p>
+<p style="Normal" xid="45" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c>dk</c></p>
+<p style="Normal" xid="46" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c>dka</c></p>
+<p style="Normal" xid="47" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c>dkaz</c></p>
+<p style="Normal" xid="48" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c>dkazt</c></p>
+<p style="Normal" xid="49" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c>is d&gt;k no</c></p>
+<p style="Normal" xid="52" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c>dkazt</c></p>
+<p style="Normal" xid="50" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c>is k&gt;a yes</c></p>
+<p style="Normal" xid="53" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c>dakzt</c></p>
+<p style="Normal" xid="54" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c>is a&gt;z no</c></p>
+<p style="Normal" xid="56" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c>dakzt</c></p>
+<p style="Normal" xid="55" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c>is z&gt;t yes</c></p>
+<p style="Normal" xid="51" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c>daktz</c></p>
+<p style="Normal" xid="57" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c>is d&gt;a yes</c></p>
+<p style="Normal" xid="60" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c>adktz</c></p>
+<p style="Normal" xid="61" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c>is d&gt;k no</c></p>
+<p style="Normal" xid="62" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c>adktz</c></p>
+<p style="Normal" xid="63" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c>continues until end of for loops without changing</c></p>
+<p style="Normal" xid="58" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c></c></p>
+</section>
+</abiword>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:ct="http://www.abisource.com/changetracking.dtd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="231" xmlns:dc="http://purl.org/dc/elements/1.1/" styles="unlocked" fileformat="1.0" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="0.99.2" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="abiword.date_last_changed">Wed May 24 16:05:47 2017
+</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.creator">student</m>
+<m key="dc.date">Wed May 24 16:04:41 2017
+</m>
+<m key="dc.format">application/x-abiword</m>
+</metadata>
+<rdf>
+</rdf>
+<history version="2" edit-time="6066" last-saved="1495656347" uid="411d94e4-40ae-11e7-968a-e4e55d5c1fae">
+<version id="2" started="1495656281" uid="606ec472-40bc-11e7-968a-e4e55d5c1fae" auto="0" top-xid="231"/>
+</history>
+<styles>
+<s type="P" name="Normal" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; color:000000; margin-left:0pt; text-position:normal; widows:2; font-style:normal; text-indent:0in; font-variant:normal; font-weight:normal; margin-right:0pt; font-size:12pt; text-decoration:none; margin-bottom:0pt; line-height:1.0; bgcolor:transparent; text-align:left; font-stretch:normal"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section xid="93" props="page-margin-footer:0.5in; page-margin-header:0.5in">
+<table xid="1">
+<cell xid="2" props="bot-attach:1; left-attach:0; right-attach:1; top-attach:0">
+<p style="Normal" xid="3"><c props="font-size:8pt">User input number for birth month</c></p>
+</cell>
+<cell xid="5" props="bot-attach:1; left-attach:1; right-attach:2; top-attach:0">
+<p style="Normal" xid="6"><c props="font-size:8pt">receives number, validate, store in birthMonth</c></p>
+</cell>
+<cell xid="8" props="bot-attach:1; left-attach:2; right-attach:3; top-attach:0">
+<p style="Normal" xid="9"><c props="font-size:8pt">Request int birthMonth</c></p>
+</cell>
+<cell xid="11" props="bot-attach:2; left-attach:0; right-attach:1; top-attach:1">
+<p style="Normal" xid="12"><c props="font-size:8pt">User input number for birth day</c></p>
+</cell>
+<cell xid="14" props="bot-attach:2; left-attach:1; right-attach:2; top-attach:1">
+<p style="Normal" xid="15"><c props="font-size:8pt">receive number, validate, store in birthDay</c></p>
+</cell>
+<cell xid="17" props="bot-attach:2; left-attach:2; right-attach:3; top-attach:1">
+<p style="Normal" xid="18"><c props="font-size:8pt">Request birthDay</c></p>
+</cell>
+<cell xid="20" props="bot-attach:3; left-attach:0; right-attach:1; top-attach:2">
+<p style="Normal" xid="21"><c props="font-size:8pt">User input number for birth year</c></p>
+</cell>
+<cell xid="23" props="bot-attach:3; left-attach:1; right-attach:2; top-attach:2">
+<p style="Normal" xid="24"><c props="font-size:8pt">receive number, validate, store in birth day</c></p>
+</cell>
+<cell xid="26" props="bot-attach:3; left-attach:2; right-attach:3; top-attach:2">
+<p style="Normal" xid="27"><c props="font-size:8pt">Request birthYear</c></p>
+</cell>
+<cell xid="29" props="bot-attach:4; left-attach:0; right-attach:1; top-attach:3">
+<p style="Normal" xid="30"><c props="font-size:8pt">computer inputs current month</c></p>
+</cell>
+<cell xid="32" props="bot-attach:4; left-attach:1; right-attach:2; top-attach:3">
+<p style="Normal" xid="33"><c props="font-size:8pt">receive number, store in currentMonth</c></p>
+</cell>
+<cell xid="35" props="bot-attach:4; left-attach:2; right-attach:3; top-attach:3">
+<p style="Normal" xid="36"><c props="font-size:8pt"></c></p>
+</cell>
+<cell xid="38" props="bot-attach:5; left-attach:0; right-attach:1; top-attach:4">
+<p style="Normal" xid="39"><c props="font-size:8pt">computer inputs current day</c></p>
+</cell>
+<cell xid="41" props="bot-attach:5; left-attach:1; right-attach:2; top-attach:4">
+<p style="Normal" xid="42"><c props="font-size:8pt">receive number, store in currentDay</c></p>
+</cell>
+<cell xid="44" props="bot-attach:5; left-attach:2; right-attach:3; top-attach:4">
+<p style="Normal" xid="45"><c props="font-size:8pt"></c></p>
+</cell>
+<cell xid="47" props="bot-attach:6; left-attach:0; right-attach:1; top-attach:5">
+<p style="Normal" xid="48"><c props="font-size:8pt">computer inputs current year</c></p>
+</cell>
+<cell xid="50" props="bot-attach:6; left-attach:1; right-attach:2; top-attach:5">
+<p style="Normal" xid="51"><c props="font-size:8pt">receive number, store in currentYear</c></p>
+</cell>
+<cell xid="53" props="bot-attach:6; left-attach:2; right-attach:3; top-attach:5">
+<p style="Normal" xid="54"><c props="font-size:8pt"></c></p>
+</cell>
+<cell xid="56" props="bot-attach:7; left-attach:0; right-attach:1; top-attach:6">
+<p style="Normal" xid="57"><c props="font-size:8pt"></c></p>
+</cell>
+<cell xid="59" props="bot-attach:7; left-attach:1; right-attach:2; top-attach:6">
+<p style="Normal" xid="60"><c props="font-size:8pt"></c></p>
+</cell>
+<cell xid="62" props="bot-attach:7; left-attach:2; right-attach:3; top-attach:6">
+<p style="Normal" xid="63"><c props="font-size:8pt"></c></p>
+</cell>
+<cell xid="65" props="bot-attach:8; left-attach:0; right-attach:1; top-attach:7">
+<p style="Normal" xid="66"><c props="font-size:8pt"></c></p>
+</cell>
+<cell xid="68" props="bot-attach:8; left-attach:1; right-attach:2; top-attach:7">
+<p style="Normal" xid="69"><c props="font-size:8pt"></c></p>
+</cell>
+<cell xid="71" props="bot-attach:8; left-attach:2; right-attach:3; top-attach:7">
+<p style="Normal" xid="72"><c props="font-size:8pt"></c></p>
+</cell>
+<cell xid="74" props="bot-attach:9; left-attach:0; right-attach:1; top-attach:8">
+<p style="Normal" xid="75"><c props="font-size:8pt"></c></p>
+</cell>
+<cell xid="77" props="bot-attach:9; left-attach:1; right-attach:2; top-attach:8">
+<p style="Normal" xid="78"><c props="font-size:8pt"></c></p>
+</cell>
+<cell xid="80" props="bot-attach:9; left-attach:2; right-attach:3; top-attach:8">
+<p style="Normal" xid="81"><c props="font-size:8pt"></c></p>
+</cell>
+<cell xid="83" props="bot-attach:10; left-attach:0; right-attach:1; top-attach:9">
+<p style="Normal" xid="84"><c props="font-size:8pt"></c></p>
+</cell>
+<cell xid="86" props="bot-attach:10; left-attach:1; right-attach:2; top-attach:9">
+<p style="Normal" xid="87"><c props="font-size:8pt"></c></p>
+</cell>
+<cell xid="89" props="bot-attach:10; left-attach:2; right-attach:3; top-attach:9">
+<p style="Normal" xid="90"><c props="font-size:8pt"></c></p>
+</cell>
+</table>
+<p style="Normal" xid="94"><c props="font-size:8pt"></c></p>
+<p style="Normal" xid="95"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<table xid="97">
+<cell xid="98" props="bot-attach:1; left-attach:0; right-attach:1; top-attach:0">
+<p xid="99"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">User input date of birth in 09/20/1994 format</c></p>
+</cell>
+<cell xid="101" props="bot-attach:1; left-attach:1; right-attach:2; top-attach:0">
+<p style="Normal" xid="102" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:8pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">receives Stringr, validate, store in birthMonth</c></p>
+</cell>
+<cell xid="104" props="bot-attach:1; left-attach:2; right-attach:3; top-attach:0">
+<p style="Normal" xid="105" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:8pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Request date of birth</c></p>
+</cell>
+<cell xid="107" props="bot-attach:2; left-attach:0; right-attach:1; top-attach:1">
+<p style="Normal" xid="108" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:8pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
+</cell>
+<cell xid="110" props="bot-attach:2; left-attach:1; right-attach:2; top-attach:1">
+<p style="Normal" xid="111" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:8pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">separate into string by “/”</c></p>
+</cell>
+<cell xid="113" props="bot-attach:2; left-attach:2; right-attach:3; top-attach:1">
+<p style="Normal" xid="114" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:8pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
+</cell>
+<cell xid="116" props="bot-attach:3; left-attach:0; right-attach:1; top-attach:2">
+<p style="Normal" xid="117" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:8pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
+</cell>
+<cell xid="119" props="bot-attach:3; left-attach:1; right-attach:2; top-attach:2">
+<p style="Normal" xid="120" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:8pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">store into int currentMonth currentDay and currentYear</c></p>
+</cell>
+<cell xid="122" props="bot-attach:3; left-attach:2; right-attach:3; top-attach:2">
+<p style="Normal" xid="123" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:8pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
+</cell>
+<cell xid="125" props="bot-attach:4; left-attach:0; right-attach:1; top-attach:3">
+<p style="Normal" xid="126" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:8pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">computer inputs current month</c></p>
+</cell>
+<cell xid="128" props="bot-attach:4; left-attach:1; right-attach:2; top-attach:3">
+<p style="Normal" xid="129" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:8pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">receive number, store in currentMonth</c></p>
+</cell>
+<cell xid="131" props="bot-attach:4; left-attach:2; right-attach:3; top-attach:3">
+<p xid="132"><c props="font-size:8pt"></c></p>
+</cell>
+<cell xid="134" props="bot-attach:5; left-attach:0; right-attach:1; top-attach:4">
+<p style="Normal" xid="135" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:8pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">computer inputs current day</c></p>
+</cell>
+<cell xid="137" props="bot-attach:5; left-attach:1; right-attach:2; top-attach:4">
+<p style="Normal" xid="138" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:8pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">receive number, store in currentDay</c></p>
+</cell>
+<cell xid="140" props="bot-attach:5; left-attach:2; right-attach:3; top-attach:4">
+<p xid="141"><c props="font-size:8pt"></c></p>
+</cell>
+<cell xid="143" props="bot-attach:6; left-attach:0; right-attach:1; top-attach:5">
+<p style="Normal" xid="144" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:8pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">computer inputs current year</c></p>
+</cell>
+<cell xid="146" props="bot-attach:6; left-attach:1; right-attach:2; top-attach:5">
+<p style="Normal" xid="147" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:8pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">receive number, store in currentYear</c></p>
+</cell>
+<cell xid="149" props="bot-attach:6; left-attach:2; right-attach:3; top-attach:5">
+<p xid="150"><c props="font-size:8pt"></c></p>
+</cell>
+<cell xid="152" props="bot-attach:7; left-attach:0; right-attach:1; top-attach:6">
+<p xid="153"><c props="font-size:8pt"></c></p>
+</cell>
+<cell xid="155" props="bot-attach:7; left-attach:1; right-attach:2; top-attach:6">
+<p xid="156"><c props="font-size:8pt">compare mo</c></p>
+</cell>
+<cell xid="158" props="bot-attach:7; left-attach:2; right-attach:3; top-attach:6">
+<p xid="159"><c props="font-size:8pt"></c></p>
+</cell>
+<cell xid="161" props="bot-attach:8; left-attach:0; right-attach:1; top-attach:7">
+<p xid="162"><c props="font-size:8pt"></c></p>
+</cell>
+<cell xid="164" props="bot-attach:8; left-attach:1; right-attach:2; top-attach:7">
+<p xid="165"><c props="font-size:8pt"></c></p>
+</cell>
+<cell xid="167" props="bot-attach:8; left-attach:2; right-attach:3; top-attach:7">
+<p xid="168"><c props="font-size:8pt"></c></p>
+</cell>
+<cell xid="170" props="bot-attach:9; left-attach:0; right-attach:1; top-attach:8">
+<p xid="171"><c props="font-size:8pt"></c></p>
+</cell>
+<cell xid="173" props="bot-attach:9; left-attach:1; right-attach:2; top-attach:8">
+<p xid="174"><c props="font-size:8pt"></c></p>
+</cell>
+<cell xid="176" props="bot-attach:9; left-attach:2; right-attach:3; top-attach:8">
+<p xid="177"><c props="font-size:8pt"></c></p>
+</cell>
+<cell xid="179" props="bot-attach:10; left-attach:0; right-attach:1; top-attach:9">
+<p xid="180"><c props="font-size:8pt"></c></p>
+</cell>
+<cell xid="182" props="bot-attach:10; left-attach:1; right-attach:2; top-attach:9">
+<p xid="183"><c props="font-size:8pt"></c></p>
+</cell>
+<cell xid="185" props="bot-attach:10; left-attach:2; right-attach:3; top-attach:9">
+<p xid="186"><c props="font-size:8pt"></c></p>
+</cell>
+</table>
+<p style="Normal" xid="189" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal" xid="190" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">INITIALIZE currentDay</c></p>
+<p style="Normal" xid="200" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">INITIALIZE currentMonth<br/>INITIALIZE currentYear<br/>INITIALIZE birthDay</c></p>
+<p style="Normal" xid="199" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">INITIALIZE birthMonth<br/>INITIALIZE birthYear</c></p>
+<p style="Normal" xid="191" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">INITIALIZE age</c></p>
+<p style="Normal" xid="221" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">INITILIZE continue</c></p>
+<p style="Normal" xid="205" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal" xid="207" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">GET currentDay</c></p>
+<p style="Normal" xid="206" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">GET currentMonth</c></p>
+<p style="Normal" xid="208" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">GET currentYear	</c></p>
+<p style="Normal" xid="192" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal" xid="196" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">DOWHILE  continue is Y</c></p>
+<p style="Normal" xid="204" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">	</c></p>
+<p style="Normal" xid="195" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">	PRINT “Enter day”</c></p>
+<p style="Normal" xid="197" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal" xid="198" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">	INPUT day</c></p>
+<p style="Normal" xid="218" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; font-size:8pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">	DOWHILE</c></p>
+<p style="Normal" xid="211" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">		DOWHILE(currentDay is not a number is less than 0 or more than 31))</c></p>
+<p style="Normal" xid="210" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">			IF (currentDay is not a number)</c></p>
+<p style="Normal" xid="213" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">				print(Enter a correct day)</c></p>
+<p style="Normal" xid="214" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">			ENDIF</c></p>
+<p style="Normal" xid="215" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">		LOOP</c></p>
+<p style="Normal" xid="202" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">		INPUT Month<br/>		DOWHILE(birthMonth is greater than zero and less than 13)OR(ex. currentDay&gt;31 and currentMonth is (1 or 3 or 5 or 7 or 8 or 10 or12))OR</c><c props="font-family:Times New Roman; font-size:8pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">(ex. currentDay&gt;30 and currentMonth is (4 or 6 or 9 or 11)) OR OR(ex. currentDay&gt;28and currentMonth is 2))</c></p>
+<p style="Normal" xid="203" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">			IF(birthMonth is greater than 12 and less than 1)<br/>				PRINT(Month given is not valid)</c></p>
+<p style="Normal" xid="222" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">			ELSEIF</c><c props="font-family:Times New Roman; font-size:8pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">(ex. currentDay&gt;31 and currentMonth is (1 or 3 or 5 or 7 or 8 or 10 or12))OR(ex. currentDay&gt;30 and currentMonth is (4 or 6 or 9 or 11))  OR(ex. currentDay&gt;28and currentMonth is 2))</c></p>
+<p style="Normal" xid="219" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">				PRINT this day is out of bounds for this month<br/>			ENDIF</c></p>
+<p style="Normal" xid="216" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">		LOOP</c></p>
+<p style="Normal" xid="220" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">	LOOP<br/>		INPUT birthYear</c></p>
+<p style="Normal" xid="223" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">		DOWHILE(birthYear is greater than currentYear)OR(</c><c props="font-family:Times New Roman; font-size:8pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">(currentYear divided by 4 equals0 and currentDay&gt;29and currentMonth is 2)))</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"><br/>			IF(birthYear is greater than currentYear)<br/>   				PRINT(You haven’t been born yet)</c></p>
+<p style="Normal" xid="226" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">			ELSE IF</c><c props="font-family:Times New Roman; font-size:8pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">((currentYear divided by 4 equals0 and currentDay&gt;29and currentMonth is 2))</c></p>
+<p style="Normal" xid="227" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">				PRINT February only has 29 days this year<br/>			END IF</c></p>
+<p style="Normal" xid="224" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">		LOOP</c></p>
+<p style="Normal" xid="229" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">	LOOP<br/><br/>		IF (birthMonth is GREATER THAN currentMonth or (birthMonth is EQUAL TO to currentMonth and birthDay is GREATER THAN or EQUAL To currentDay))<br/>   		 	 age is -1<br/>		ELSE <br/>    			age is 0<br/></c></p>
+<p style="Normal" xid="209" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">	LOOP</c></p>
+<p style="Normal" xid="230" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">	age equals age + currentYear - birthYear</c></p>
+<p style="Normal" xid="231" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; font-weight:normal; text-align:left; line-height:1.000000; margin-top:0.0000in; color:000000; margin-right:0.0000in; text-decoration:none; margin-bottom:0.0000in; text-indent:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:8pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">PRINT age</c></p>
+</section>
+</abiword>
